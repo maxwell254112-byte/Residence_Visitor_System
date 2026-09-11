@@ -1,0 +1,6 @@
+/config/database.local.php
+/config/installed.lock
+/.DS_Store
+/Thumbs.db
+*.zip
+/dist/
