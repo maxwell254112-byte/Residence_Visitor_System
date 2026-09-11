@@ -1,0 +1,28 @@
+cPanel upload — Residence Visitor System
+========================================
+
+ZIP contents
+------------
+Residence_Visitor_System/   ← upload this whole folder into public_html/
+
+Steps
+-----
+1. Extract the ZIP on your PC.
+2. In cPanel File Manager, upload/extract `Residence_Visitor_System` into `public_html/`.
+3. phpMyAdmin → select database `synergy1_maxwellteh_Residence_Visitor_System`.
+4. Import `database/database.sql`.
+5. Copy `config/database.local.php.example` to `config/database.local.php`.
+6. Edit `config/database.local.php` and set `DB_PASS` to your MySQL password.
+7. Open the site URL and sign in.
+8. After testing: set `SHOW_DEMO_ACCOUNTS` to `false` in `config/config.php` and change demo passwords.
+
+Demo accounts
+-------------
+admin / Admin@12345
+security / Security@12345
+resident / Resident@12345
+
+Notes
+-----
+- Live camera QR scan requires HTTPS.
+- Do not upload `.git` (not included in this ZIP).

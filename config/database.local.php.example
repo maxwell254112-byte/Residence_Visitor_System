@@ -1,0 +1,14 @@
+<?php
+declare(strict_types=1);
+
+/**
+ * Copy this file to database.local.php on the server and fill in the password.
+ * database.local.php is gitignored and should not be committed.
+ */
+
+define('DB_HOST', 'localhost');
+define('DB_PORT', '3306');
+define('DB_NAME', 'synergy1_maxwellteh_Residence_Visitor_System');
+define('DB_USER', 'synergy1_shaoxi');
+define('DB_PASS', ''); // set your cPanel MySQL password here
+define('DB_CHARSET', 'utf8mb4');
